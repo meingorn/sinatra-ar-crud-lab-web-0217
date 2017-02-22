@@ -1,0 +1,5 @@
+<h1>This is the blog's homepage</h1>
+ <% Post.all.each do |post| %>
+   <h2><%= post.name %></h2>
+   <h1><%= post.content %></h1>
+ <% end  %>
